@@ -275,7 +275,7 @@ $$ |  $$ |$$ |  $$ |$$ |$$ |$$ |  $$ | \____$$\
 }
 /*Closed guilds folder blur effect*/
 .closedFolderIconWrapper-3tRb2d {
-  filter: blur(3px);
+  filter: blur(0px);
 }
 /*Guild info popout when hover (Thanks Disease)*/
 .tooltip-14MtrL {
