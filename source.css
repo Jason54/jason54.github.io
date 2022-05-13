@@ -261,6 +261,10 @@ $$ |  $$ |$$ |  $$ |$$ |$$ |$$ |  $$ | \____$$\
 .base-3bcbY3 .cooldownWrapper-2k1jHK {
   color: var(--Main-Color)!important;
 }
+/*Closed guilds folder blur effect*/
+.closedFolderIconWrapper-3tRb2d {
+  filter: blur(0px);
+}
 
 /*Guild folders*/
 .expandedFolderBackground-1kSAf6 {
