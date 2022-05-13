@@ -69,7 +69,21 @@ $$  /   \$$ |\$$$$$$$ |  \$$$$  |\$$$$$$$\ $$ |      $$ | $$ | $$ |\$$$$$$$ |$$ 
 \__/     \__| \_______|   \____/  \_______|\__|      \__| \__| \__| \_______|\__|      \__|  \__|
 */
 
-
+div[class*="typeWindows-"]::after {
+  content: '';
+  font-weight: bold;
+  line-height: 30px;
+  color: var(--Main-Color);
+  font-size: 13.5px;
+  position: absolute;
+  padding: 0 15px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background: transparent;
+  z-index: -1;
+}
 /*Discord's global variables copy-paste and edited*/
 .theme-dark, .theme-light {
   --info-positive-background: transparent!important;
