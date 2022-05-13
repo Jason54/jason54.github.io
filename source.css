@@ -273,10 +273,7 @@ $$ |  $$ |$$ |  $$ |$$ |$$ |$$ |  $$ | \____$$\
   background: var(--Black);
   border: solid 2px var(--Secondary-Color);
 }
-/*Closed guilds folder blur effect*/
-.closedFolderIconWrapper-3tRb2d {
-  filter: blur(0px);
-}
+
 /*Guild info popout when hover (Thanks Disease)*/
 .tooltip-14MtrL {
   background: var(--Black)!important;
