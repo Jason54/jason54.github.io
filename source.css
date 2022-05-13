@@ -68,9 +68,8 @@ $$$  / \$$$ |$$  __$$ |  $$ |$$\ $$   ____|$$ |      $$ | $$ | $$ |$$  __$$ |$$ 
 $$  /   \$$ |\$$$$$$$ |  \$$$$  |\$$$$$$$\ $$ |      $$ | $$ | $$ |\$$$$$$$ |$$ |      $$ | \$$\ 
 \__/     \__| \_______|   \____/  \_______|\__|      \__| \__| \__| \_______|\__|      \__|  \__|
 */
-
 div[class*="typeWindows-"]::after {
-  content: '';
+  content: 'DRACONICXYROLES version 40';
   font-weight: bold;
   line-height: 30px;
   color: var(--Main-Color);
@@ -84,6 +83,7 @@ div[class*="typeWindows-"]::after {
   background: transparent;
   z-index: -1;
 }
+
 /*Discord's global variables copy-paste and edited*/
 .theme-dark, .theme-light {
   --info-positive-background: transparent!important;
@@ -261,10 +261,6 @@ $$ |  $$ |$$ |  $$ |$$ |$$ |$$ |  $$ | \____$$\
 .base-3bcbY3 .cooldownWrapper-2k1jHK {
   color: var(--Main-Color)!important;
 }
-/*Closed guilds folder blur effect*/
-.closedFolderIconWrapper-3tRb2d {
-  filter: blur(0px);
-}
 
 /*Guild folders*/
 .expandedFolderBackground-1kSAf6 {
@@ -277,7 +273,10 @@ $$ |  $$ |$$ |  $$ |$$ |$$ |$$ |  $$ | \____$$\
   background: var(--Black);
   border: solid 2px var(--Secondary-Color);
 }
-
+/*Closed guilds folder blur effect*/
+.closedFolderIconWrapper-3tRb2d {
+  filter: blur(3px);
+}
 /*Guild info popout when hover (Thanks Disease)*/
 .tooltip-14MtrL {
   background: var(--Black)!important;
