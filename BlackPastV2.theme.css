@@ -28,8 +28,8 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$\   $$ |
   /*Global variables that were made/edited by me*/
   --Main-Color: rgb(250, 0, 0); /*main master color*/
   --Secondary-Color: rgb(170, 0, 0); /*secondary color*/
-  --Third-Color: rgb(158, 0, 0); /*third color*/
-  --Color-4: rgb(158, 0, 0); /*color number 4*/
+  --Third-Color: rgb(255, 255, 255); /*third color*/
+  --Color-4: rgb(39, 39, 39); /*color number 4*/
   --Color-5: hsla(0, 40%, 40%, 0.366); /*color number 5*/
   --Color-6: hsla(0, 50%, 50%, 0.466); /*color number 6*/
   --Grey-Color: rgb(31, 31, 31); /*grey color*/
